@@ -1,0 +1,16 @@
+/* h1, header, a, .../ #id name / .class name(selector) 
+h1 .class(가능){               
+ property-name: value;   
+ property-name: value;   
+ property-name: value;   
+ property-name: value;   
+} */
+/* 
+css파일 연결방법
+-inline 방식: html 파일에 <head> 태그 안에 <style> h1 { color: red;}</style> 모든 html 파일에 해줘야 적용가능
+
+-external방식 : styles.css파일을 만들어서 <head>태그 안에 
+<link href="styles.css" rel="stylesheet"> 만 써주면 된다 */
+h1 {
+    color: red;
+}

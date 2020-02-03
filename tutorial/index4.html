@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    body,html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+    .father {
+        display:flex;
+        justify-content: space-around;   
+    }
+    .child1 {
+        width: 200px;
+        height: 200px;
+        background-color: yellow;
+        order: 2;
+    }
+    .child {
+        width: 200px;
+        height: 200px;
+        background-color: green;
+    }
+    .child2 {
+        width: 200px;
+        height: 200px;
+        background-color: yellow;
+    }
+        </style>
+</head>
+<body>
+    <div class="father">
+        <div class="child2"></div>
+        <div class="child"></div>
+        <div class="child1"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+    </div>
+</body>
+</html>
